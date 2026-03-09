@@ -62,13 +62,18 @@
             border: 1px solid #999;
         }
     </style>
+    <script>
+        function showAlert() {
+            alert("Task has been added!");
+        }
+    </script>
 </head>
 <body>
-    <h1>Welcome to My Task Tracker</h1>
-    <p>This is my first website. It helps track tasks for youth working from home.</p>
+    <h1>Welcome to Task Tracker</h1>
+    <p>It helps track tasks for youth working from home.</p>
 
     <h2>Create a Task</h2>
-    <form>
+    <form onsubmit="showAlert(); return false;">
         <label>Task Name:</label><br>
         <input type="text" name="taskname"><br><br>
 
