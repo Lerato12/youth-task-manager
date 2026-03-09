@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Task App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            background-color: #d0e7ff;
+            padding: 10px;
+        }
+
+        h2 {
+            color: green;
+            border-bottom: 2px solid #ccc;
+        }
+
+        form {
+            background-color: #fff;
+            border: 2px solid #000;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="date"] {
+            margin: 5px 0;
+            padding: 5px;
+            width: 250px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: lightblue;
+            border: 1px solid #000;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        ul {
+            background-color: #e6ffe6;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        p {
+            background-color: #ffffcc;
+            padding: 10px;
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Task Tracker</h1>
+    <p>This is my first website. It helps track tasks for youth working from home.</p>
+
+    <h2>Create a Task</h2>
+    <form>
+        <label>Task Name:</label><br>
+        <input type="text" name="taskname"><br><br>
+
+        <label>Assigned To:</label><br>
+        <input type="text" name="assignee"><br><br>
+
+        <label>Deadline:</label><br>
+        <input type="date" name="deadline"><br><br>
+
+        <input type="submit" value="Add Task">
+    </form>
+
+    <h2>To-Do List</h2>
+    <ul>
+        <li>Example Task 1 - Assigned to Sarah - Due tomorrow</li>
+        <li>Example Task 2 - Assigned to John - Due next week</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>New task added! Don’t forget to finish your work.</p>
+</body>
+</html>
